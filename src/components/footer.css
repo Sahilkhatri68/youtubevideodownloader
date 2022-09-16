@@ -1,0 +1,94 @@
+.mainfooter {
+    width: 85%;
+    margin: auto;
+}
+
+.contfooter {
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.hrr {
+    margin: 40px auto 40px auto;
+}
+
+.para {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.lowerpart {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newbottom {
+    margin-top: 60px;
+}
+
+.botmdivup {
+    display: flex;
+    margin-top: 40px;
+}
+
+.child1 {
+    width: 33%;
+    margin: 4px;
+}
+
+.subchildtop {
+    text-align: center;
+    align-items: center;
+}
+
+.subchildbottom {
+    text-align: center;
+    align-items: center;
+}
+
+.muiiconn {
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+.subchildmid {
+    text-align: center;
+    align-items: center;
+}
+
+.endfoot {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@media(max-width:770px) {
+    .lowerpart {
+        display: block;
+    }
+
+    .leftfootcont {
+        width: 100%;
+        margin: 30px auto 30px auto;
+    }
+
+    .rightfootcont {
+        width: 100%;
+        margin: 30px auto 30px auto;
+    }
+}
+@media(max-width:660px){
+     .botmdivup{
+        display: block;
+     }
+     .child1{
+        width: 70%;
+        margin: 30px auto;
+     }
+     
+}

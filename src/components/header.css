@@ -1,0 +1,30 @@
+.navbar-brand {
+    width: 20%;
+    /* margin: auto; */
+    text-align: right;
+    justify-content: end;
+
+}
+
+.navbar-nav {
+    width: 80%;
+    margin: auto;
+    justify-content: end;
+}
+@media(max-width:720px){
+    .navbar-brand{
+        width: 30%;
+    }
+}
+
+@media(max-width:550px) {
+    .terms {
+        margin: 15px 15px 40px 15px;
+
+
+    }
+    .navbar-brand{
+        width: 50%;
+
+    }
+}
