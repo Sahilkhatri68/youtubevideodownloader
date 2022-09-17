@@ -10,8 +10,8 @@ function Header() {
     <div> <div>
     <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#" style={{ display: "flex", marginLeft: 5, fontSize: 30 }}>
-                <div><CloudDownloadIcon style={{ color: "#ff0088", height: 50, width: 50, fontSize: 50 }} /></div><div style={{ marginLeft: 5 }}> Y2 Mate</div>
+            <a className="navbar-brand" href="#" >
+                <div><CloudDownloadIcon style={{ color: "#ff0088", height: 50, width: 50, fontSize: 50 }} /></div><div style={{ marginLeft: 5 }}>Video Downloader</div>
 
             </a>
             <button
