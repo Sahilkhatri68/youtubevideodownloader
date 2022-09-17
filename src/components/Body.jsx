@@ -23,6 +23,7 @@ export default function Body() {
         }).catch((error) => {
             console.log(error)
             setIsLoading(false)
+            alert("Please Enter a valid Link")
 
         })
     }
@@ -70,7 +71,7 @@ export default function Body() {
                                         return (
                                             <>
                                                 <tr>
-                                                    <td> {value.qualityLabel !== null ?  (`${value.qualityLabel}`):("Audio") }   </td>
+                                                    <td> {value.qualityLabel !== null ? (`${value.qualityLabel}`) : ("Audio")}   </td>
                                                     <td>{value.container}</td>
                                                     <td>{value.hasAudio === false ? (<MicOffIcon />) : (<VolumeUpIcon />)} </td>
                                                     <td >
