@@ -23,7 +23,7 @@ export default function Body() {
         }).catch((error) => {
             console.log(error)
             setIsLoading(false)
-            alert("Please Enter a valid Link")
+            // alert("Please Enter a valid Link")
 
         })
     }
